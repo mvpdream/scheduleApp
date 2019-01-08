@@ -1,0 +1,221 @@
+@import "../../common/vendor.wxss";
+
+.topitem {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  border-bottom: #BEBEBE;
+  border-bottom-width: 1rpx;
+  border-bottom-style: solid;
+}
+.topitemcell {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  line-height: 1;
+  padding-bottom: 6rpx;
+}
+.loadingView {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.topitemcell-chil {
+  text-align: center;
+  line-height: 1;
+}
+.item1 {
+  height: 200px;
+  width: 100%;
+  background: #00B26A;
+}
+.nav-day {
+  padding-top: 3rpx;
+  font-size: 13px;
+  font-weight: 500;
+}
+.nav-weekday {
+  font-size: 12px;
+}
+.cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.cell-tq,
+.topitem-month {
+  width: 70rpx;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cell-tq {
+  font-size: 12px;
+  padding: 0 1px 0 1px;
+  color: #666666;
+}
+.topitem-month {
+  color: #7A7E83;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.cell-content {
+  background-color: #EEEEEE;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.cell-content-item {
+  background-color: #f6f5fa;
+  border-left: 2rpx solid #FFFFFF;
+  border-right: 2rpx solid #FFFFFF;
+}
+.item-am {
+  border-top: 4rpx solid #FFFFFF;
+  background-color: #f6f5fa;
+  height: 49rpx;
+}
+.amselected {
+  background-color: #aedcfd;
+}
+.amselectedFinish {
+  background-color: #b2d665;
+  color: #FFFFFF;
+}
+.selectBorder {
+  border-top: 4rpx solid #aedcfd;
+}
+.selectBorderFinish {
+  border-top: 4rpx solid #b2d665;
+}
+.selectBBorder {
+  border-top: 3rpx solid #FFFFFF;
+}
+.item-pm {
+  background-color: #f6f5fa;
+  height: 49rpx;
+}
+.pmselected {
+  background-color: #aedcfd;
+}
+.pmselectedFinish {
+  background-color: #b2d665;
+  color: #FFFFFF;
+}
+.uni-scroll-view {
+  padding-bottom: 50px !important;
+}
+.today {
+  color: #8fc32b;
+}
+.item-am {
+  border-top: 4rpx solid #FFFFFF;
+  background-color: #f6f5fa;
+  height: 49rpx;
+  color: #6f9dbc;
+  font-size: 27rpx;
+}
+.amselected {
+  background-color: #d9efdb;
+}
+.selectBorder {
+  border-top: 4rpx solid #d9efdb;
+}
+.item-pm {
+  background-color: #f6f5fa;
+  height: 49rpx;
+}
+.pmselected {
+  background-color: #d9efdb;
+}
+.item-finish {
+  padding-left: 20px;
+}
+.item-am {
+  border-top: 4rpx solid #FFFFFF;
+  background-color: #f6f5fa;
+  height: 49rpx;
+}
+.amselected {
+  background-color: #d9efdb;
+}
+.selectBorder {
+  border-top: 2rpx solid #FFFFFF;
+}
+.item-pm {
+  background-color: #f6f5fa;
+  height: 49rpx;
+  color: #6f9dbc;
+  font-size: 27rpx;
+}
+.pmselected {
+  background-color: #d9efdb;
+}
+.item-finish {
+  padding-left: 20px;
+}
+.spinner1 {
+  margin: 5px auto;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+.spinner1>._div {
+  background-color: #BEBEBE;
+  height: 100%;
+  width: 6px;
+  margin: 2px;
+  display: inline-block;
+  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+  animation: stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner1 .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+.spinner1 .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+.spinner1 .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+.spinner1 .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+.spinner1 .rect6 {
+  -webkit-animation-delay: -0.7s;
+  animation-delay: -0.7s;
+}
+@-webkit-keyframes stretchdelay {
+0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4);
+}
+20% {
+    -webkit-transform: scaleY(1.0);
+}
+}
+@keyframes stretchdelay {
+0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+}
+20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+}
+}

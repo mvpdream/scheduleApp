@@ -1,0 +1,3 @@
+<template name="71541026">
+  <view class="_view data-v-163d3596 item-pm {{setClass}}" bindtap="handleProxy" data-eventid="{{'LDe-0'}}" data-comkey="{{$k}}">{{ii}}</view>
+</template>

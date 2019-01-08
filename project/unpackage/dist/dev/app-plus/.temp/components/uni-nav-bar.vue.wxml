@@ -1,0 +1,31 @@
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/slots" />
+<template name="2e73ce0b">
+  <view class="_view data-v-0a712a9c uni-navbar {{[isFixed ? 'uni-navbar-fixed' : '', hasShadow ? 'uni-navbar-shadow' : '']}}" style=" {{('background-color:' + backgroundColor + ';')}}">
+    <template name="left"></template>
+    <template name="default"></template>
+    <template name="right"></template>
+    <template wx:if="{{insertStatusBar}}" data="{{...$root['0'], ...$root[$kk+'9Py-0'],$root}}" is="b3027af4"></template>
+    <view class="_view data-v-0a712a9c uni-navbar-header" style=" {{('color:' + color + ';')}}">
+      <view class="_view data-v-0a712a9c uni-navbar-header-btns" bindtap="handleProxy" data-eventid="{{'ElK-0'}}" data-comkey="{{$k}}">
+        <view wx:if="{{leftIcon.length}}" class="_view data-v-0a712a9c">
+          <template size="26" data="{{...$root['0'], ...$root[$kk+'pHH-1'],$root}}" is="29efc172"></template>
+        </view>
+        <view wx:if="{{leftText.length}}" class="_view data-v-0a712a9c uni-navbar-btn-text {{[!leftIcon.length ? 'uni-navbar-btn-icon-left' : '']}}">{{leftText}}</view>
+        <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotleft || 'left'}}"></template>
+      </view>
+      <view class="_view data-v-0a712a9c uni-navbar-container">
+        <view wx:if="{{title.length}}" class="_view data-v-0a712a9c uni-navbar-container-title">{{title}}</view>
+        <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotdefault || 'default'}}"></template>
+      </view>
+      <view class="_view data-v-0a712a9c uni-navbar-header-btns" bindtap="handleProxy" data-eventid="{{'1YP-1'}}" data-comkey="{{$k}}">
+        <view wx:if="{{rightIcon.length}}" class="_view data-v-0a712a9c">
+          <template size="26" data="{{...$root['0'], ...$root[$kk+'OdQ-4'],$root}}" is="29efc172"></template>
+        </view>
+        <view wx:if="{{rightText.length&&!rightIcon.length}}" class="_view data-v-0a712a9c uni-navbar-btn-text">{{rightText}}</view>
+        <template data="{{...$root['0'], ...$root[$k], $root}}" is="{{$slotright || 'right'}}"></template>
+      </view>
+    </view>
+  </view>
+</template>

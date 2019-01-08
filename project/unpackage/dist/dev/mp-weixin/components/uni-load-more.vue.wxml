@@ -1,0 +1,25 @@
+<template name="20408ce0">
+  <view class="_view data-v-63a98e1e load-more">
+    <view class="_view data-v-63a98e1e loading-img" hidden="{{!(loadingType === 1 && showImage)}}">
+      <view class="_view data-v-63a98e1e load1">
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+      <view class="_view data-v-63a98e1e load2">
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+      <view class="_view data-v-63a98e1e load3">
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+        <view class="_view data-v-63a98e1e" style=" {{('background:' + color + ';')}}"></view>
+      </view>
+    </view>
+    <text class="_text data-v-63a98e1e loading-text" style=" {{('color:' + color + ';')}}">{{loadingType === 0 ? contentText.contentdown : (loadingType === 1 ? contentText.contentrefresh : contentText.contentnomore)}}</text>
+  </view>
+</template>

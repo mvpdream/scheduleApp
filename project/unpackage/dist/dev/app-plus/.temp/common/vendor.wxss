@@ -1,0 +1,63 @@
+
+.uni-navbar {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+.uni-navbar view {
+  line-height: 44px;
+}
+.uni-navbar-shadow {
+  box-shadow: 0 1px 6px #ccc;
+}
+.uni-navbar.uni-navbar-fixed {
+  position: fixed;
+  z-index: 998;
+}
+.uni-navbar-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+}
+.uni-navbar-header .uni-navbar-header-btns {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  width: 50rpx;
+  padding: 0 12rpx;
+}
+.uni-navbar-header .uni-navbar-header-btns:first-child {
+  padding-left: 10rpx;
+}
+.uni-navbar-header .uni-navbar-header-btns:last-child {
+  width: 60rpx;
+}
+.uni-navbar-container {
+  width: 100%;
+  margin: 0 10rpx;
+}
+.uni-navbar-container-title {
+  font-size: 32rpx;
+  text-align: center;
+  font-weight: 700;
+}
+.uni-status-bar {
+  display: block;
+  width: 100%;
+  height: 20px;
+  height: var(--status-bar-height);
+}

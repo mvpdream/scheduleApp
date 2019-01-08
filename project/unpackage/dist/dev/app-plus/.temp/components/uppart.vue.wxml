@@ -1,0 +1,5 @@
+<template name="0b15bb5f">
+  <view class="_view data-v-44c3082e item-am {{[setClass, setBorder]}}" bindtap="handleProxy" data-eventid="{{'fO5-0'}}" data-comkey="{{$k}}">{{studentName}}
+    <uni-icon wx:if="{{setClass=='amselectedFinish'}}" type="checkmarkempty" size="25" class="_uni-icon data-v-44c3082e item-finish"></uni-icon>
+  </view>
+</template>

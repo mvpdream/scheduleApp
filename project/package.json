@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "moment": "^2.22.2",
+    "onfire.js": "^1.0.6",
+    "swiper": "^4.4.5"
+  }
+}

@@ -1,0 +1,364 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-popup.vue.wxml" />
+<import src="/components/loading.vue.wxml" />
+<import src="/components/uppart.vue.wxml" />
+<import src="/components/downpart.vue.wxml" />
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/slots" />
+<template name="data-v-955b6dae-default-irb-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'7V1-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'Pg2-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-RF5-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'JRI-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'XSh-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'x9L-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-Sae-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'4Jz-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'tRu-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-Wl9-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'71W-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'jkU-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'z5p-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-L2Q-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'bTQ-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'vlE-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-dW6-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'LNm-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'VIR-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'2AP-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-kka-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'6xt-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'p0g-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-pAo-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'GOP-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'stQ-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'XEx-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-gTA-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'XQK-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'LSK-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-VL3-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'l2O-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'lIJ-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'c9I-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-yc8-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'9I4-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'fhf-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-SZM-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'YOA-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'2pj-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'fzF-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-a7c-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'yRe-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'2xi-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-XMV-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'dbd-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'bb1-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'VSK-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-dpe-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'2rS-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'WFn-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-fY3-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'b3s-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'EPm-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'kFN-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-rlC-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'F0a-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'yQK-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-ngI-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'TL8-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'LXP-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'mDv-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-43d-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'1h7-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'MZ1-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-tUG-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'BU1-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'uaJ-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'NC9-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-TWF-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'PQ4-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'A9K-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-dhG-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'C8o-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'D03-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'MFp-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-q3G-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'9It-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'qHH-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-slr-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" data-eventid="{{'1Wq-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'4cU-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'kh3-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-SOz-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'Eae-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'gjr-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-N6D-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="input-placeholder" data-eventid="{{'Nd4-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'HrR-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'Pk8-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-8Cb-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'gIx-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'1pX-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-JDT-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'qfz-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'RZX-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'7dE-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-2YL-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'Tip-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'uZP-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-PvE-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'ee3-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'ryc-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'LFM-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-FPs-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'Up6-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'x5e-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-3GM-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'G2Z-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'4hu-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'vbA-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-32u-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'tvO-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'0pO-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-CkC-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'Sl3-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'IrJ-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'HGl-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-EdC-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'5hK-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'Pc5-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-C9t-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'pqi-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'gQX-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'y0m-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-2G4-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'U8o-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'Lm4-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-fwi-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'T7b-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'4K5-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'QWb-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-aO1-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'6qC-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'iO7-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-bPh-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'pSV-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'XHq-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'ZNV-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-Mjw-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'J50-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'GZO-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-9vs-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'2tU-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'mOz-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'WLh-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>
+<template name="data-v-955b6dae-default-pGT-1">
+  <view class="_view data-v-955b6dae input-view" style=" {{('background:' + '#ffffff' + ';')}}">
+    <template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'726-0'],$root}}" is="29efc172"></template>
+    <input confirm-type="search" bindconfirm="handleProxy" bindinput="handleProxy" bindblur="handleProxy" class="_input data-v-955b6dae input" type="text" placeholder="输入搜索关键词" data-eventid="{{'E8q-0'}}" data-comkey="{{$k}}" style=" {{('color:' + '#333' + ';')}}"
+    />
+  </view>
+</template>
+<template name="data-v-955b6dae-default-ncs-2">
+  <view class="_view data-v-955b6dae uni-center uni-modal modal-content">
+    <input class="_input data-v-955b6dae uni-input" value="{{inputValue}}" bindinput="handleProxy" focus placeholder="输入学员姓名" placeholder-class="inputPlaceholder" data-eventid="{{'Ytg-2'}}" data-comkey="{{$k}}" />
+  </view>
+  <view class="_view data-v-955b6dae modal-btn">
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'BC6-3'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">取 消</button>
+    <button type="default" size="mini" bindtap="handleProxy" data-eventid="{{'UDY-4'}}" data-comkey="{{$k}}" class="_button data-v-955b6dae">确 认</button>
+  </view>
+</template>

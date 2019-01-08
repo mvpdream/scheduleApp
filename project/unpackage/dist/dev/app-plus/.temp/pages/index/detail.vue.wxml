@@ -1,0 +1,39 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="cd4d96de">
+  <view class="_view data-v-d554fcbc root">
+    <template color="#ffffff" background-color="#409eff" fixed="true" left-icon="back" bindclick-left="handleProxy" title="添加排期" data-eventid="{{'E4R-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'KFt-0'],$root}}" is="2e73ce0b"></template>
+    <view class="_view data-v-d554fcbc uni-padding-wrap">
+      <view class="_view data-v-d554fcbc uni-list">
+        <view class="_view data-v-d554fcbc uni-list-cell">
+          <view class="_view data-v-d554fcbc uni-title uni-common-pl">日期：{{selectedDate}}</view>
+        </view>
+        <view class="_view data-v-d554fcbc uni-list-cell" bindtap="handleProxy" data-eventid="{{'mip-1'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-d554fcbc uni-title uni-common-pl">学员：{{studentName}}</view>
+        </view>
+        <view class="_view data-v-d554fcbc uni-list-cell">
+          <view class="_view data-v-d554fcbc uni-list-cell-db rightBorder" bindtap="handleProxy" data-eventid="{{'Rcy-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d554fcbc uni-flex uni-row timecell">
+              <view class="_view data-v-d554fcbc uni-list-cell-left"> 开始时间 </view>
+              <view class="_view data-v-d554fcbc uni-input">{{selectedTime}}</view>
+            </view>
+          </view>
+          <view class="_view data-v-d554fcbc uni-list-cell-db" bindtap="handleProxy" data-eventid="{{'dSR-3'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d554fcbc uni-flex uni-row timecell">
+              <view class="_view data-v-d554fcbc uni-list-cell-left"> 结束时间 </view>
+              <view class="_view data-v-d554fcbc uni-input">{{selectedEndTime}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <button type="primary" wx:if="{{status!=2}}" class="_button data-v-d554fcbc confirmBtn" disabled="{{disabled}}" loading="{{loading}}" bindtap="handleProxy" data-eventid="{{'ib3-4'}}" data-comkey="{{$k}}">确定</button>
+      <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'0EX-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'23b-1'],$root}}" is="6e94148b"></template>
+      <template ref="mpvuePicker1" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'ODP-6'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'osu-2'],$root}}" is="6e94148b"></template>
+    </view>
+    <view class="_view data-v-d554fcbc bottomView" wx:if="{{status!=0}}">
+      <button type="default" class="_button data-v-d554fcbc leftBtn" disabled="{{false}}" loading="{{false}}" bindtap="handleProxy" data-eventid="{{'GHf-7'}}" data-comkey="{{$k}}">删除课程</button>
+      <button type="primary" wx:if="{{status!=2}}" class="_button data-v-d554fcbc rightBtn" disabled="{{false}}" loading="{{false}}" bindtap="handleProxy" data-eventid="{{'eKl-8'}}" data-comkey="{{$k}}">完成课程</button>
+      <button type="default" wx:if="{{status==2}}" class="_button data-v-d554fcbc rightBtn1" disabled="{{false}}" loading="{{false}}">课程已完成</button>
+    </view>
+  </view>
+</template>

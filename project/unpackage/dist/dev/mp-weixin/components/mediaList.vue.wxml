@@ -1,0 +1,11 @@
+<template name="14c6df43">
+  <view class="_view data-v-1e778858">
+    <view class="_view data-v-1e778858 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'OOD-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-1e778858 media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-1e778858 {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <text class="_text data-v-1e778858 {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}">{{data.title}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

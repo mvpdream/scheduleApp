@@ -1,0 +1,26 @@
+<import src="/components/uppart.vue.wxml" />
+<import src="/components/downpart.vue.wxml" />
+<template name="2b22aa48">
+  <view class="_view data-v-800a0faa uni-swiper-wrapper">
+    <view class="_view data-v-800a0faa topitem">
+      <view class="_view data-v-800a0faa topitem-month">{{week.belongToMonth}}月</view>
+      <view class="_view data-v-800a0faa topitemcell" wx:key="weekofdays.date" key="{{weekofdays.date}}" wx:for="{{week.data}}" wx:for-index="index11" wx:for-item="weekofdays">
+        <view class="_view data-v-800a0faa topitemcell-chil">
+          <view class="_view data-v-800a0faa nav-day">{{weekofdays.day}}</view>
+          <label class="_span data-v-800a0faa nav-weekday">{{formatDay(index11)}}</label>
+        </view>
+      </view>
+    </view>
+    <scroll-view class="_scroll-view data-v-800a0faa list" scroll-y>
+      <view wx:key="index2" key="{{index2}}" class="_view data-v-800a0faa cell" wx:for="{{timequantum}}" wx:for-index="index2" wx:for-item="time">
+        <view class="_view data-v-800a0faa cell-tq">{{time}}</view>
+        <view class="_view data-v-800a0faa cell-content" wx:key="index111+weekofdays.date" key="{{index111+weekofdays.date}}" wx:for="{{week.data}}" wx:for-index="index111" wx:for-item="weekofdays">
+          <view class="_view data-v-800a0faa cell-content-item">
+            <template bindwzhclick="handleProxy" data-eventid="{{'38G-0-'+index2+'-'+index111}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'o6E-0-'+index2+'-'+index111],$root}}" is="0b15bb5f"></template>
+            <template bindwzhclick="handleProxy" data-eventid="{{'0n3-1-'+index2+'-'+index111}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'uqi-1-'+index2+'-'+index111],$root}}" is="71541026"></template>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</template>

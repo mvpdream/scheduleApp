@@ -1,0 +1,19 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-popup.vue.wxml" />
+<template name="71960750">
+  <view class="_view data-v-955b6dae page">
+    <template color="#ffffff" background-color="#409eff" fixed="true" left-icon="back" bindclick-left="handleProxy" right-icon="plusempty" bindclick-right="handleProxy" data-eventid="{{'1S2-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'pGT-1'],$root, $slotdefault:'data-v-955b6dae-default-pGT-1'}}"
+      is="2e73ce0b"></template>
+    <template bindhidePopup="handleProxy" padding="0" data-eventid="{{'3v9-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ncs-2'],$root, $slotdefault:'data-v-955b6dae-default-ncs-2'}}" is="b27b2164"></template>
+    <scroll-view class="_scroll-view data-v-955b6dae scrollList" scroll-y>
+      <view class="_view data-v-955b6dae uni-list">
+        <block wx:key="key" key="{{key}}" wx:for="{{lists}}" wx:for-index="key" wx:for-item="list">
+          <view class="_view data-v-955b6dae uni-list-cell" hover-class="uni-list-cell-hover" hover-start-time="{{0}}" hover-stay-time="{{150}}">
+            <view class="_view data-v-955b6dae uni-list-cell-navigate" bindtap="handleProxy" bindlongtap="handleProxy" data-eventid="{{'Xia-6-'+key}}" data-comkey="{{$k}}"> {{list.name}} </view>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</template>

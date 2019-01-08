@@ -1,0 +1,10 @@
+<template name="68c74b8a">
+  <view class="_view data-v-70ceb168 spinner1">
+    <view class="_div data-v-70ceb168 rect1"></view>
+    <view class="_div data-v-70ceb168 rect2"></view>
+    <view class="_div data-v-70ceb168 rect3"></view>
+    <view class="_div data-v-70ceb168 rect4"></view>
+    <view class="_div data-v-70ceb168 rect5"></view>
+    <view class="_div data-v-70ceb168 rect6"></view>
+  </view>
+</template>

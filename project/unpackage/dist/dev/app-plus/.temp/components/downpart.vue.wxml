@@ -1,0 +1,6 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="71541026">
+  <view class="_view data-v-163d3596 item-pm {{[setClass, setBorder]}}" bindtap="handleProxy" data-eventid="{{'V0w-0'}}" data-comkey="{{$k}}">{{studentName}}
+    <template wx:if="{{setClass=='pmselectedFinish'}}" type="checkmarkempty" size="24" data="{{...$root['0'], ...$root[$kk+'IWZ-0'],$root}}" is="29efc172"></template>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+{"navigationBarTitleText":"学员","enablePullDownRefresh":true,"titleNView":false,"bounce":"none","pullToRefresh":{"support":true,"color":"#409eff","style":"default","height":"90px","contentdown":{"caption":"下拉可刷新自定义文本"},"contentover":{"caption":"释放可刷新自定义文本"},"contentrefresh":{"caption":"正在刷新自定义文本"}}}

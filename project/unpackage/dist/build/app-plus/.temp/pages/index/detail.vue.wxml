@@ -1,0 +1,32 @@
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="cd4d96de">
+  <view class="_view data-v-d554fcbc root">
+    <view class="_view data-v-d554fcbc uni-padding-wrap">
+      <view class="_view data-v-d554fcbc uni-list">
+        <view class="_view data-v-d554fcbc uni-list-cell">
+          <view class="_view data-v-d554fcbc uni-title uni-common-pl">日期：{{selectedDate}}</view>
+        </view>
+        <view class="_view data-v-d554fcbc uni-list-cell">
+          <view class="_view data-v-d554fcbc uni-title uni-common-pl">学员：学员</view>
+        </view>
+        <view class="_view data-v-d554fcbc uni-list-cell">
+          <view class="_view data-v-d554fcbc uni-list-cell-db rightBorder" bindtap="handleProxy" data-eventid="{{'eEE-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d554fcbc uni-flex uni-row timecell">
+              <view class="_view data-v-d554fcbc uni-list-cell-left"> 开始时间 </view>
+              <view class="_view data-v-d554fcbc uni-input">{{selectedTime}}</view>
+            </view>
+          </view>
+          <view class="_view data-v-d554fcbc uni-list-cell-db" bindtap="handleProxy" data-eventid="{{'wuW-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-d554fcbc uni-flex uni-row timecell">
+              <view class="_view data-v-d554fcbc uni-list-cell-left"> 结束时间 </view>
+              <view class="_view data-v-d554fcbc uni-input">{{selectedEndTime}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <button type="default" bindtap="handleProxy" data-eventid="{{'wWv-2'}}" data-comkey="{{$k}}" class="_button data-v-d554fcbc">确定</button>
+      <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'8Gy-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'wbc-0'],$root}}" is="6e94148b"></template>
+      <template ref="mpvuePicker1" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'VtU-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'PPS-1'],$root}}" is="6e94148b"></template>
+    </view>
+  </view>
+</template>

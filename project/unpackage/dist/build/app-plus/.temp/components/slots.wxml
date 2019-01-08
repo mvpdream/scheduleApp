@@ -1,0 +1,4 @@
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/swiperitem.vue.wxml" />
+<import src="/components/uppart.vue.wxml" />
+<import src="/components/downpart.vue.wxml" />
